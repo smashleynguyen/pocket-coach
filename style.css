@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ===========
+   Desktop CSS
+   =========== */
+
+body {
+  font-family: 'Slabo 27px', serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: auto 0;
+  width: 100%;
+  display: block;
+}
+
+main {
+  width: 400px;
+  height: 700px;
+  text-align: center;
+  background: #eee;
+  margin-left: 30%;
+}
+
+header {
+  width: 400px;
+  margin-left: 30%;
+  background: #02C39A;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Quicksand';
+  font-size: 45px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Quicksand';
+  font-size: 30px;
+  color: #eee;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Quicksand';
+  font-size: 20px;
+  color: #eee;
+  margin: 0px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: #02C39A;
+  color: white;
+  border-radius: 15px 15px 15px 15px;
+  border-color: #eee;
+  padding: 10px;
+}
