@@ -108,6 +108,15 @@ button {
   padding-bottom: 10px;
 }
 
+.success {
+  float: left;
+  padding: 15px 10px 5px 10px;
+}
+.success-story {
+  text-align: left;
+  padding: 2px;
+}
+
 .login {
   padding-top: 10px;
 }
